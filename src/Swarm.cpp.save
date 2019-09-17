@@ -12,7 +12,7 @@ void Swarm::update(int elapsed) {
 
 	int interval = elapsed - m_lastTime; // This helps to run the simulation suitable for the clock speed of all computers that run it
 
-	for (int i = 0; i < Swarm::NPARTICLES; i++) { // Iterate through each individual particle and update
+	for (int i = 0; i < Swarm::NPARTICLES; i++) { // Iterate through each individual particle and update 
 		m_pParticle[i].update(interval); // Updating the position of all the particles on every run of the game loop
 	}
 	m_lastTime = elapsed;

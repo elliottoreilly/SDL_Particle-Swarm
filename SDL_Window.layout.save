@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="include/Swarm.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="150" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/Particle.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1220" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/Swarm.cpp" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="155" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2353" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="include/Screen.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/Screen.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5140" topLine="116" />
+		</Cursor>
+	</File>
+	<File name="include/Particle.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="196" topLine="0" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="069d12605d80efe100365ddb00000002=0;SDL_Particle_Swarm:main.cpp,1;SDL_Particle_Swarm:src/Particle.cpp,2;SDL_Particle_Swarm:src/Screen.cpp,*3;SDL_Particle_Swarm:src/Swarm.cpp|06d90f905d80efe1003667ce00000003=4;SDL_Particle_Swarm:include/Particle.h,+5;SDL_Particle_Swarm:include/Screen.h,6;SDL_Particle_Swarm:include/Swarm.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=069d12605d80efe100365ddb00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=06d90f905d80efe1003667ce00000003;caption=;state=2098172;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=1139;besth=488;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,1,0)=1141|" />
+</CodeBlocks_layout_file>

@@ -8,7 +8,7 @@ public:
 
 private:// Instance member variables 'prefixed with an ' m_',
 	Particle* m_pParticle;
-	int  m_lastTime; // Create a variable to hold the the amount of time the loop has taken
+	int  m_lastTime; // Create a variable to hold the the amount of time the loop has taken 
 
 public:
 

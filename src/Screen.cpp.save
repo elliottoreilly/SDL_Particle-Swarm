@@ -69,7 +69,7 @@ void Screen::boxBlur() { //  his function calls 'box blur' responsible for prett
 	for (int y = 0; y < SCREEN_HEIGHT; y++) {
 		for (int x = 0; x < SCREEN_WIDTH; x++) {
 			/*
-                                                  -1    0  +1
+                                                  -1    0  +1          
                                         -1        0    0    0
                                          0        0    1    0       // We will end up dividing the colour pixel by nine, so that it ends up as an average of all the surrounding pixels
 										+1       0    0    0       // we plot the result back into the centre pixel, this is what creates the 'box blur' effect
@@ -101,7 +101,7 @@ void Screen::boxBlur() { //  his function calls 'box blur' responsible for prett
 			Uint8 green = greenTotal / 9;
 			Uint8 blue = blueTotal / 9;
 
-			setPixel(x, y, red, green, blue); //  Remember, this function writes to buffer1, but we have copied the last set of pixel data to buffer2,
+			setPixel(x, y, red, green, blue); //  Remember, this function writes to buffer1, but we have copied the last set of pixel data to buffer2, 
                                                                         // each time we iterate through the game loop in 'main.cpp' we will plot the new 'box blur' effect on it
                                                                         // so it will get more and more blurred after every loop
 		}
